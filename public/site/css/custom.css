@@ -1,0 +1,242 @@
+.check {
+    padding: 4em 0;
+}
+
+.cart-header {
+    position: relative;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    height: 115px;
+    padding: 10px;
+    background: #eee
+}
+
+.close1 {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    -webkit-transition: color 0.2s ease-in-out;
+    -moz-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+}
+
+.cart-sec {
+    margin-bottom: 1em;
+    
+}
+
+.bottom-cd.simpleCart_shelfItem {
+    width: 50%;
+}
+
+.cart-item {
+    width: 15%;
+    float: left;
+    margin-right: 5%;
+}
+
+    .cart-item img {
+        width: 100%;
+    }
+
+.cart-item-info {
+    width: 75%;
+    float: left;
+}
+
+    .cart-item-info h3 {
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+        .cart-item-info h3 a {
+            color: #000;
+        }
+
+        .cart-item-info h3 span {
+            display: block;
+            font-weight: 400;
+            font-size: 0.85em;
+            margin: 0.7em 0;
+        }
+
+    .cart-item-info h4 span {
+        font-size: 0.65em;
+        font-weight: 400;
+    }
+
+.total-item, .cart-items {
+    margin-top: 0em;
+    padding-bottom: 2em;
+}
+
+.cart-items, .cart-total {
+    padding: 0;
+}
+
+ul.qty {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+    ul.qty li {
+        display: inline-block;
+        margin-right: 10%;
+    }
+
+        ul.qty li p {
+            font-size: 1em;
+            color: #555;
+        }
+/* right */
+.total-item, .cart-items {
+    margin-top: 0em;
+    padding-bottom: 2em;
+}
+
+.total-item, .cart-items {
+    margin-top: 0em;
+    padding-bottom: 2em;
+}
+
+a.continue {
+    background: #8ce78a;
+    padding: 10px 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+    a.continue:hover {
+        background: #000;
+    }
+
+.price-details {
+    border-bottom: 1px solid #DDD9D9;
+    padding-bottom: 10px;
+}
+
+    .price-details h3 {
+        color: #000;
+        font-size: 1.2em;
+        margin-bottom: 1em;
+    }
+
+    .price-details span {
+        width: 50%;
+        float: left;
+        font-size: 1em;
+        color: #000;
+        line-height: 1.8em;
+    }
+
+ul.total_price {
+    padding: 0;
+    margin: 1em 0 0 0;
+    list-style: none;
+}
+
+    ul.total_price li.last_price {
+        width: 50%;
+        float: left;
+    }
+
+        ul.total_price li.last_price span {
+            font-size: 1.1em;
+            color: #000;
+        }
+
+a.order {
+    background: #8ce78a;
+    padding: 10px 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+    margin: 3em 0;
+}
+
+    a.order:hover {
+        background: #000;
+    }
+
+.total-item, .cart-items {
+    margin-top: 0em;
+    padding-bottom: 2em;
+}
+
+    .total-item h3 {
+        color: #333;
+        font-size: 1.1em;
+        margin-bottom: 1em;
+    }
+
+    .total-item h4 {
+        font-size: 0.8em;
+        font-weight: 600;
+        color: #9C9C9C;
+        display: inline-block;
+        margin-right: 6em;
+    }
+
+    .total-item p {
+        font-size: 0.9em;
+        font-weight: 400;
+        margin-top: 1em;
+    }
+
+        .total-item p a {
+            color: #727272;
+        }
+
+            .total-item p a:hover {
+                color: #000;
+                text-decoration: underline;
+            }
+
+.grid-flex p {
+    color: red;
+}
+
+#pagination-ct {
+    margin-top: 15px;
+}
+#pagination-ct > strong {
+    border: 1px solid #337ab7;
+    background: #fff;
+    color: #337ab7;
+    padding: 4px 8px;
+    margin: 0 3px;
+    box-shadow:  2px 2px 2px #eee;
+}
+#pagination-ct > a {
+    border: 1px solid #337ab7;
+    background: #337ab7;
+    color: #fff;
+    padding: 4px 8px;
+    margin: 0 3px;
+    box-shadow:  2px 2px 2px #eee;
+}
+
+#pagination-ct > strong:hover {
+    border: 1px solid #337ab7;
+    background: #fff;
+    color: #337ab7;
+    box-shadow:  2px 2px 2px #eee;
+}
+#pagination-ct > a:hover {
+    border: 1px solid #337ab7;
+    background: #fff;
+    color: #337ab7;
+    box-shadow:  2px 2px 2px #eee;
+}
